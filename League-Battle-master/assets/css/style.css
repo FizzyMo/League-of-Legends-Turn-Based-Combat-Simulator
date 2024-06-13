@@ -1,0 +1,248 @@
+/* Start Webpage format */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Roboto+Slab:wght@100..900&family=Shadows+Into+Light&display=swap');
+body {
+    background: var(--bg-color);
+}
+
+:root {
+    --bg-color: #222831;
+    --enemy-color: #76ABAE;
+    --pulse-color: #abcdce;
+    --text-color: #EEEEEE;
+}
+
+/* End Webpage format */
+
+/* Start Alert Styling */
+
+.custom-alert {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-alert-content {
+    background-color: var(--text-color);
+    padding: 1.25rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 0 .62rem rgba(0, 0, 0, 0.25);
+    width: 18.75rem;
+}
+
+.close-btn {
+    position: absolute;
+    right: .62rem;
+    top: .62rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+#alert-message {
+    font-size: larger;
+    white-space: break-spaces;
+}
+
+.confirm-button {
+    margin-top: 1.25rem;
+    padding: .62rem 1.25rem;
+    background-color: black;
+    color: var(--text-color);
+    border: none;
+    border-radius: .8rem;
+    cursor: pointer;
+}
+
+.confirm-button:hover {
+    background-color: gray;
+}
+/* End Alert Styling */
+
+/* Start Characters/Selected Styling */
+.main-section-title {
+    font-size: 420%;
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Gochi Hand', cursive;
+}
+
+#characters-section {
+    display: flex;
+}
+
+#selected-character-section {
+    display: flex;
+}
+
+#selected-character {
+    text-align: center;
+    margin-left: 2rem;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: large;
+}
+
+.section-title-two {
+    color: var(--text-color);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 300%;
+    position: relative;
+    width: 12rem;
+    margin-left: 2rem;
+}
+
+#character-area{
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: large;
+}
+
+.character {
+    display: inline-block;
+    border: .3rem solid black;
+    border-radius: .8rem;
+    cursor: pointer;
+    background-color: var(--text-color);
+    margin: 1.1rem 0 0 1.2rem;
+}
+
+.character-name {
+    text-align: center;
+}
+
+.character-health {
+    margin: 0  0 .25rem 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 300%;
+    text-align: center;
+    color: var(--text-color);
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 2rem;    
+}
+
+img {
+    height: 6.25rem;
+    width: 9.375rem;
+    border-radius: 2rem;
+}
+
+.character-image {
+    padding: 0 1rem 0 1rem;
+    margin: .188rem 0 0 0;
+}
+/* End Characters/Selected Styling */
+
+/* Start Enemy/Opponent Styling */
+#available-to-attack-section {
+    display: flex;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: large;
+}
+.enemy {
+    border: .3rem solid black;
+    border-radius: .8rem;
+    cursor: pointer;
+    background-color:var(--text-color);
+    color: black;
+    margin: 1.1rem 0 0 1.2rem;
+}
+
+.enemy:hover {
+    background-color: var(--pulse-color);
+    animation: enemy-pulse 2s infinite;
+}
+
+#defender-name {
+    text-align: center;
+}
+
+.section-title-third {
+    font-size: 300%;
+    color: var(--enemy-color);
+    font-family: 'Gochi Hand', cursive;
+    margin: 0 2rem;
+}
+
+#attack-button {
+    display: inline-flex;
+    justify-content: center;
+    width: 10rem;
+    background: var(--text-color);
+    border: 0.2rem solid black;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem; 
+    margin-left: 2rem;
+    cursor: pointer;
+}
+  
+#attack-button:hover {
+     background-color: var(--pulse-color);
+     color: var(--text-color);
+     transition: 0.5s;
+}
+  
+#attack-button::before {
+      display: none;
+}
+
+.section-title-last {
+    color: var(--text-color);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 300%;
+    margin-left: 2rem;
+}
+
+#defender {
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: large;
+    margin-left: 2rem;
+}
+
+/* End Enemy/Opponent Styling */
+
+/* Start Restart Button Styling */
+#reset-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+    background: white;
+    border: 0.3rem solid black;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem; 
+    margin: 2rem 0 0 1.2rem;
+    cursor: pointer;
+}
+/* End Restart Button Styling */
+
+/* Start Keyframe Animation */
+@keyframes enemy-pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
