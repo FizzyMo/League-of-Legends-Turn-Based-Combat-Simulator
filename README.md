@@ -76,7 +76,3 @@ This project is not affiliated with Riot Games or League of Legends. All charact
 
 
 
-
-
-
-
