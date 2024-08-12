@@ -1,9 +1,11 @@
-# League Battle
-Simple turn-based combat game inspired by League of Legends. 
+<h1 align="center">League Battle</h1>
 
+A simplified, web-based turn-based combat game inspired by the League of Legends universe! Choose your champion and engage in strategic battles against iconic opponents. 
+***
 ## Table of Contents
 * [Description](#description)
 * [Features](#features)
+* [Wiki](#wiki)
 * [Steps To Run](#steps-to-run)
 * [Game Flow](#game-flow)
 * [Technologies](#technologies)
@@ -11,24 +13,21 @@ Simple turn-based combat game inspired by League of Legends.
 * [Contact](#contact)
 * [Acknowledgments](#acknowledgments)
 * [Disclaimer](#disclaimer)
-
+***
 ## Description
-This exciting turn-based combat game will take you on a thrilling adventure through the League of Legends universe! Choose your champion from a roster of renowned characters, each with their own set of strengths and limitations, and participate in tactical fights against a wide range of challenging opponents.
+League Battle brings the thrill of Runeterra to your browser! This JavaScript-powered game lets you experience the strategic depth of League of Legends combat in a more accessible, turn-based format. Select your favorite champion from a roster of familiar faces and pit your skills against a series of challenging opponents.
 
 ## Features
-* **Character Selection:** Dive into the heart of League of Legends by choosing from a roster of beloved champions, **including:**
-  * **Diana:** The Moonlit Huntress, wielding devastating lunar magic.
-  * **Teemo:** The mischievous Yordle, deploying deadly traps and arrows.
-  * **Thresh:** The Chain Warden, a terrifying spectral reaper wielding a soul-bound lantern.
-  * **Vayne:** The Night Hunter, a skilled markswoman with silver bolts.
-  * **Leona:** The Radiant Dawn, a powerful warrior wielding the sun's might.
-  * **Rumble:** The Mechanized Menace, a ferocious inventor with a powerful suit.
-  * **Pantheon:** The Aspect of War, a fearless warrior with celestial power.
+* **Character Selection:** Embark on your journey as Diana, Teemo, Thresh, Vayne, Leona, Rumble, or Pantheon! Each champion brings their own unique strengths to the battlefield.
 * **Turn-Based Combat:** Engage in strategic battles where each turn matters. Carefully plan your attacks and defenses, considering each character's strengths and weaknesses.
 * **Health System:** Each champion has health points, which decrease with each successful attack. Manage your character's health wisely to ensure victory.
+* **Challenging Opponents:** Face a diverse lineup of enemies, each with their own tactics.
 * **Victory Conditions:** Defeat all opponents to emerge victorious.
-* **Reset Functionality:** Begin a fresh challenge anytime by resetting the game and choosing a new champion.
+* **Replayability:** Experiment with different champions and strategies to find your winning formula.
 * **Custom Alert:** Receive game messages and updates in a visually engaging custom alert box.
+
+## Wiki
+Dive deeper into the development process, design decisions, and planning behind League Battle in the comprehensive [Wiki](https://github.com/FizzyMo/League-of-Legends-Turn-Based-Combat-Simulator/wiki).
 
 ## Steps To Run
 1. Open Git Bash.
@@ -56,6 +55,7 @@ git clone https://github.com/FizzyMo/League-Battle
 * **JavaScript:** Handles the game logic and functionality.
 * **jQuery:** Simplifies DOM manipulation and event handling.
 * **Visual Studio Code:** Provides a powerful and efficient development environment.
+* **GitHub:** Application is deployed using GitHub Pages.
 
 ## Author
 **Carisa Saenz-Videtto**
@@ -70,9 +70,3 @@ carisasaenz@gmail.com
 
 ## Disclaimer
 This project is not affiliated with Riot Games or League of Legends. All characters and assets are owned by Riot Games.
-
-
-
-
-
-
