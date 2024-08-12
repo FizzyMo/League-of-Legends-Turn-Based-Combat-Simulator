@@ -65,8 +65,6 @@ carisasaenz@gmail.com
 
 ## Acknowledgments
 * The League of Legends community for inspiring this project.
-* jQuery for simplifying JavaScript development.
-* Visual Studio Code for providing a powerful and efficient development environment.
 
 ## Disclaimer
 This project is not affiliated with Riot Games or League of Legends. All characters and assets are owned by Riot Games.
