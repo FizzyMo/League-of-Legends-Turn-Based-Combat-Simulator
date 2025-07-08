@@ -1,3 +1,4 @@
+![Header](https://github.com/user-attachments/assets/a039ce3a-a652-4d0a-be3e-b0ee4b55c83c)
 <h1 align="center">League Battle</h1>
 
 A simplified, web-based turn-based combat game inspired by the League of Legends universe! Choose your champion and engage in strategic battles against iconic opponents. 
